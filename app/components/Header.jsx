@@ -1,6 +1,6 @@
 import Image from "next/image";
 
-export default function Header() {
+export default function Header({ handleDisplayType }) {
 	return (
 		<header className="px-3 py-4 md:px-16 flex justify-between items-center">
 			<div className="flex justify-start items-center gap-10">
@@ -41,7 +41,7 @@ export default function Header() {
 					Signup
 				</button>
 			</div>
-			<div className="block md:hidden text-3xl">&#9776;</div>
+			<div onClick={handleDisplayType} className="block md:hidden text-DarkViolet text-3xl">&#9776;</div>
 		</header>
 	);
 }

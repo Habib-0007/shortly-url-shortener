@@ -1,6 +1,8 @@
-export default function Navbar() {
+export default function Navbar({ displayType }) {
 	return (
-		<nav className="bg-DarkViolet py-9 px-2 md:none w-def mx-auto rounded-xl flex justify-between items-center gap-6 flex-col">
+		<nav
+			className={`absolute left-[50%] translate-x-[-50%] bg-DarkViolet py-9 px-2 md:hidden w-def rounded-xl flex justify-between items-center gap-6 flex-col ${displayType}`}
+		>
 			<div className="flex justify-between items-center flex-col gap-6">
 				<a
 					className="text-white text-xl"
@@ -21,7 +23,7 @@ export default function Navbar() {
 					Resources
 				</a>
 			</div>
-			<hr className="text-white w-full h-0.1 bg-white" />
+			<hr className="text-white w-full h-[0.3px] bg-white" />
 			<div className="flex justify-between items-center gap-6 flex-col">
 				<button className="px-7 py-2 b-rad bg-transparent text-white text-xl">
 					Login

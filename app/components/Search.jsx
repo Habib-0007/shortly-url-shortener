@@ -1,6 +1,6 @@
 export default function Search({ inputVal, handleInputVal }) {
 	return (
-		<section className="mx-auto w-def w-full mt-16 bg-DarkViolet">
+		<section className="relative x-auto w-def w-full mt-16 bg-DarkViolet mb-[-60px] left-[50%] translate-x-[-50%] z-50 rounded-[12px]">
 			<div className="bg-search-image px-6 py-8 flex justify-between items-center flex-col md:flex-row gap-4 w-full rounded-sm rounded-[12px]">
 				<input
 					className={`block outline-none w-full px-4 py-3.5 rounded-[10px] border-2 text-Red ${

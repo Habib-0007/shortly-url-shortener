@@ -12,44 +12,106 @@ export default function Footer() {
 				/>
 			</div>
 			<div className="flex justify-between items-center flex-col gap-[12px]">
-				<p className="font-bold-mb-2">Features</p>
-				<a href="/">Link shortening</a>
-				<a href="/">Branded Link</a>
-				<a href="/">Analytics</a>
+				<p className="text-xl font-bold-mb-4">Features</p>
+				<a
+					className="hover:text-Cyan text-Gray"
+					href="/"
+				>
+					Link shortening
+				</a>
+				<a
+					className="text-Gray hover:text-Cyan"
+					href="/"
+				>
+					Branded Link
+				</a>
+				<a
+					className="text-Gray hover:text-Cyan"
+					href="/"
+				>
+					Analytics
+				</a>
 			</div>
 			<div className="flex justify-between items-center flex-col gap-[12px]">
-				<p className="font-bold-mb-2">Resources</p>
-				<a href="/">Blog</a>
-				<a href="/">Developers</a>
-				<a href="/">Support</a>
+				<p className="text-xl font-bold-mb-4">Resources</p>
+				<a
+					className="text-Gray hover:text-Cyan"
+					href="/"
+				>
+					Blog
+				</a>
+				<a
+					className="text-Gray hover:text-Cyan"
+					href="/"
+				>
+					Developers
+				</a>
+				<a
+					className="text-Gray hover:text-Cyan"
+					href="/"
+				>
+					Support
+				</a>
 			</div>
 			<div className="flex justify-between items-center flex-col gap-[12px]">
-				<p className="font-bold-mb-2">Company</p>
-				<a href="/">About</a>
-				<a href="/">Our Team</a>
-				<a href="/">Career</a>
-				<a href="/">Product</a>
+				<p className="text-xl font-bold-mb-4">Company</p>
+				<a
+					className="text-Gray hover:text-Cyan"
+					href="/"
+				>
+					About
+				</a>
+				<a
+					className="text-Gray hover:text-Cyan"
+					href="/"
+				>
+					Our Team
+				</a>
+				<a
+					className="text-Gray hover:text-Cyan"
+					href="/"
+				>
+					Career
+				</a>
+				<a
+					className="text-Gray hover:text-Cyan"
+					href="/"
+				>
+					Product
+				</a>
 			</div>
-			<div className="flex justify-between items-center flex-row gap-[16px]">
-				<a href="/">
+			<div className="flex justify-between items-center flex-row gap-[24px]">
+				<a
+					href="/"
+					className="hover:text-Cyan"
+				>
 					<img
 						src="/images/icon-facebook.svg"
 						alt="icon-facebook"
 					/>
 				</a>
-				<a href="/">
+				<a
+					href="/"
+					className="hover:text-Cyan"
+				>
 					<img
 						src="/images/icon-twitter.svg"
 						alt="icon-twitter"
 					/>
 				</a>
-				<a href="/">
+				<a
+					href="/"
+					className="hover:text-Cyan"
+				>
 					<img
 						src="/images/icon-pinterest.svg"
 						alt="icon-pinterest"
 					/>
 				</a>
-				<a href="/">
+				<a
+					href="/"
+					className="hover:text-Cyan"
+				>
 					<img
 						src="/images/icon-instagram.svg"
 						alt="icon-instagram"

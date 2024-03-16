@@ -6,10 +6,6 @@
 	width: 90%;
 }
 
-.h-0.1 {
-	height: 0.1px;
-}
-
 .illus img {
 	width: 100%;
 	height: 100%;
@@ -31,13 +27,8 @@
 	.bg-search-image {
 		background-image: url("/images/bg-shorten-desktop.svg");
 	}
-	
+
 	.boost {
-	background: url("/images/bg-boost-desktop.svg");
-}
-
-section.card:nth-child(2) {
-	margin-top: 40px;
-}
-
+		background: url("/images/bg-boost-desktop.svg");
+	}
 }
