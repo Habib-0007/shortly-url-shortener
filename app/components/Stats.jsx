@@ -2,7 +2,7 @@ import StatsCard from "./StatsCard";
 
 export default function Stats() {
 	return (
-		<section className="px-4 md:px-16 py-16 flex justify-between items-center flex-col gap-4 mt-6">
+		<section className="px-4 md:px-16 pt-6 pb-16 flex justify-between items-center flex-col gap-4">
 			<div className="py-8 flex justify-between items-center flex-col gap-6 text-center">
 				<h1 className="font-bold text-2xl text-DarkViolet">
 					Advanced Statistics
